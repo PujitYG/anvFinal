@@ -57,12 +57,30 @@ background-color: black;
 }
 
 .eight-nine{
-    height:35vh;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size:35vh;
+    background-image: url(images/jssate.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     width:250px;
 }
 
+.eight-nine-and{
+    font-family: 'Old Standard TT', serif;color: rgb(202, 198, 198);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size:30vh;
+    width:250px;
+}
 #nov{
+    font-family: 'Old Standard TT', serif;
     font-size: 120px;
+    background-image: url(images/jssate.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .anveshan-home{
@@ -76,9 +94,6 @@ background-color: black;
 }
 
 #dates{
-    /* background-image: url(images/calendar.jpg);
-    background-attachment: fixed;
-    background-position: center; */
     padding: 20px 0 20px 0;
 }
 
@@ -168,7 +183,8 @@ background-color: black;
         display: none;
     }
     .eight-nine{
-        height:25vh;
+        margin-bottom:10px;
+        font-size:20vh;;
         /* width:150px; */
         width:100%;
         /* max-width: 200px; */
