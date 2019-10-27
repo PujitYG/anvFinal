@@ -64,6 +64,9 @@
 }
 
 #dates{
+    /* background-image: url(images/calendar.jpg);
+    background-attachment: fixed;
+    background-position: center; */
     padding: 20px 0 20px 0;
 }
 
@@ -73,7 +76,7 @@
 } */
 .events-row{
     padding: 30px 15% 30px;
-
+   
 }
 
 
@@ -138,7 +141,19 @@
     color:rgb(82, 82, 82);
     text-decoration:none;
 }
+#card1{
+    width: 40rem;
+}
+
 @media only screen and (max-width: 992px) {
+    .eight-nine{
+        height:40vh;
+        width:300px;
+    }
+    
+    #card1{
+        width: 20rem;
+    }
     .col{
         padding:0;
     }
@@ -157,7 +172,7 @@
         display: block;
     }
     .events-row{
-        padding:0;
+        padding:30px 0;
     }
     @keyframes zoom{
         0%{
